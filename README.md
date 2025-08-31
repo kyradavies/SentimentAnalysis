@@ -1,9 +1,3 @@
-Got it — thanks for sharing all three scripts. I’ll create a **README.md draft** that explains what your project does, how to set it up, and how to run each stage. It’ll be written in clear, semi-formal UK English and structured for someone who may want to reproduce or adapt your workflow.
-
----
-
-# README
-
 ## Overview
 
 This project collects UK news headlines mentioning *Gen Z*, fine-tunes a sentiment analysis model, and applies the model to classify the sentiment of collected articles. The workflow is divided into three main parts:
@@ -141,7 +135,3 @@ Output:
 * **Neutral class** is not included in the current training. To expand, consider fine-tuning with a dataset that includes neutral sentiment.
 * Media Cloud has **rate limits**. The script includes pauses (`time.sleep`) to avoid 403 errors.
 * GPU is recommended for fine-tuning. CPU training will be much slower.
-
----
-
-Would you like me to also add **example usage commands** for running inference directly on a new CSV of headlines (so you don’t have to tweak the code manually)?
